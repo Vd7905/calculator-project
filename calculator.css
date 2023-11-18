@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#calc-body{
+  margin: 20px;
+  height: 400px;
+  width: 250px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: #dddddd;
+}
+#display{
+  margin: 10px;
+  height: 80px;
+  width: 86%;
+  font-size: 30px;
+  background-color: #f1f1f1;
+  text-align: right;
+  padding-right: 10px;
+}
+.button-container{
+  display: flex;
+  height: 253px;
+  width: 83%;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+.button{
+  height: 38px;
+    width: 65px;
+    margin: 2px;
+    border-radius: 20px;
+}
+#float{
+  font-size: 25px;
+}
